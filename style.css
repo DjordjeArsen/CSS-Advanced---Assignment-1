@@ -1,0 +1,42 @@
+.google:link,
+.google:visited {
+    color: rgb(43, 155, 43);
+    text-decoration: none;
+    margin-right: 15px;
+}
+.google:hover {
+    color: rgb(2, 56, 2);
+}
+.google:active {
+    color: black;
+    text-shadow: 2px 2px 5px rgb(84, 139, 0);
+}
+
+.link-grupa:link,
+.link-grupa:visited {
+    color: rgba(255, 0, 0, 0.712);
+    text-decoration: none;
+}
+.link-grupa:hover {
+    color: rgb(160, 12, 1);
+}
+.link-grupa:active {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px black, 
+    0px 0px 25px red, 0px 0px 5px darkred;
+}
+#first-div>p::after { 
+    content: " - NEW";
+    color: rgb(221, 221, 0);
+    font-weight: 600;
+}
+#second-div p:nth-child(even) {
+    color: darkred;
+}
+#second-div p:nth-child(odd) {
+    color: blue;
+}
+body>p:nth-of-type(3):hover {
+    font-style: italic;
+    font-weight: bold;
+}
